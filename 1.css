@@ -2,19 +2,13 @@
 @font-face{font-family:ssps;src:url(./ssps.ttf)}
 @font-face{font-family:ibmpsm;src:url(./ibmpsm.ttf)}
 @font-face{font-family:;src:url(./font/.ttf)}
-@font-face{font-family:;src:url(./font/.ttf)}
-@font-face{font-family:;src:url(./font/.ttf)}
-@font-face{font-family:;src:url(./font/.ttf)}
-@font-face{font-family:;src:url(./font/.ttf)}
-@font-face{font-family:;src:url(./font/.ttf)}
-@font-face{font-family:;src:url(./font/.ttf)}
 
 .bodyb{background-color:#fff;color:#000;margin:0;max-width:24.5rem;padding:0;width:24.5rem;text-align:center;text-decoration:none}
 .center{background-color:#fff;color:#000;margin:0;max-width:24.5rem;padding:0;width:24.5rem;text-align:center;text-decoration:none}
 .container{background-color:#fff;margin:0 auto;max-width:24.5rem;padding:0;width:24.5rem;}
 .img-responsive{max-width:100%}
 .left{background-color:#fff;color:#000;margin:0;max-width:24.5rem;padding:0;width:24.5rem;text-align:left;text-decoration:none}
-.logp{margin:0;margin-left:-64px;padding:0}
+.logp{margin:0;margin-left:-32px;padding:0}
 .nav{color:#000;display:inline;font:1rem/1.2rem ssps;margin:0;padding:0;text-decoration:none;vertical-align:super}
 .right{background-color:#fff;color:#000;margin:0;max-width:24.5rem;padding:0;width:24.5rem;text-align:right;text-decoration:none}
 .table{margin-bottom:0;max-width:100%;width:100%}
