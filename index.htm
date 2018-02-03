@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html><head>
+<title>krommaxe</title>
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAL6SURBVCjPFZB7SFNxAIXPdu/ddtva7qbzsaWYOTNysyuZuia1VpmW2kNMVNoyc2mZr5VK62FamWbZQzEteplQWrQw6a2FQYWsJHpIkTOwiB5ELyGEX/P89/1x+A4HJ3k0RKM3GV12vMzHJRvctfhajsFKvMvDSAG6jYr+HNiXzOhIxItC4PlqGFgMbMF4A+5sBGkDOYT9KcrtcfxIGUuu4VEmyC5M7MTZTLSlybEpWlxjokfL0BKPgoWoMWoAxrU7lxBPX12KUhaiUmlzoyId8zXnsxWLfcMwlApaGWBR+icHc7ZIDpCwMi4jyme0NXnFzFApozDpgqVKrjBUD9q/eCXwYRtIO+5XYcgBcht3M6DXwBxhqE3gs+ZF3qrgRktBuuCpxMcKkGbgj5eP4Mt6jO8BuTvZSdP6GmMCdKHhOi5ouE5GzoGcxoPNmDiOD07gQREmWnA9DZ4qfK7GtyqYgnFik7G9MDcngusqkj+14tMePHHg02H8OwaMNWHYOmmsT0BjItRCH45mBMCJoum2eLk1zndHWpArXdPNw12PtyUA6cRADp41UiwEENAUTXkDiAcb9QGYovVRz+ckV3YuOJUQ/sKOwWI56myi7iwtw6hn+KkZkYimaRHLakGbTaoglVoDEUvRD6/d+Du69V6+ZHWEDG6rzGmYGitVQEDRXgFNM2JJVABK54ZoxBhwBhsYJM6hm5eGL9b79Nuk6MvE4zx4N/j50UIhJaQolVhBPPsObxa8drVfzVYuC+dTo/1jYwIvWvmzSUBPNtwO5Fvgy7AQyylKqAsKcZgMvXsX1WfwTQlh5UaT9wOZkL1ULPNsAJqTQVrxw4npYaYz66SAcGO8qqeZ79/HE/KzPt0wK0J5aq/ZT6wYq8DXA0DZHK4vA/eskgvVy9P1mAXp0ZLYsTaz3RLze/D+sKuqx5lZk6J91bHmewneOoBVcdMerQV5knSz2swoplg02tpUy0H7Wrer+tdAw/vLswuX6DboAydedr5xqq/Y5f8BaSX0q4k9Pk0AAAAASUVORK5CYII=">
+<link rel="stylesheet" href="1.css">
+</head><body>
+<div class="container"><br>
+<div class="bodyb"><img alt="logo" class="logp" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYYAAB2GAV2iE4EAAAP4SURBVFhHxdf/T9R1HAfwN3ef4zjvum989S4YIhAu7vBYBJzHik4zKaCMoRMXFyanGKFImeusECyCMCtxBraszM3AJo1cX1Sw4ZaNUc5ZMVuCG7mWtdY3t8b27vV+vuBv+Pzw2D67z/uH531e78/79fqItwJCKj2F7HQFG4yyK43sRIRNdrKbO9nEs+zHJ9i1rWwo6ICxjQKiq5bCsdUCLjcx/QN8u1ZIxW9h40+yWz3si81M9s97lb1U6YJnSgJwrdUC8hTdJxfWM/k8m9vDjtJvSn+1HfQPsKXQLJWOkAYzrQIOlbKt97KOoAeEMMHwCw0g5TSMdlWCy5YJbrcXGgryoW2FB96rc8DKpGzQP8ClKiEVzZUGYVcqVGQ4IZLPhEgAi80JtQWJMHO4Ah66IwusJgeEcjLA6nJCU5YPhJYKLQ8L0D/A9aeFVOQAO7ebXWpj8nN2ppb5PKw8zw+dZQHYcHc+fLbLCTM7qJREDrJpelWVn3cx2cf0D/APLVLka+zXx9mtF5k8M28+SLU3CYJFaZCTlcuc6TDVZQP5Lq1X3mbnt7G5N9n1GNM/wPlmukHmDrGPq9k0lUH5pZ39RtdKKIMd3BKEgaYG2JjnhMFmO3xdL+AG/QnlIpVTubGf/fcG0z/A7AEhlSlarCxslu4y1kuNQ0k2JIJTM0GcEHCweQlESu1QX5IEz1Wnw3CNB4ao4SmT3ezqdqZ/AHmcNgkZp5apfNNrBIuIAxGngVEzMiMTwgwTvT5IE4vAm5gMK5wJcHLPPXCkLBcuU4tXJlrsoH+Arki8VIY2eMFkSoalKcwUHw+apkG8xQJeoUF5yA3p7mTwiHiwGDX48tQn8O/MU3C2MQHW5tlA/wCT9TapxPy3QbHVASKOHjPR6LEzDmAyJ0BBmoAdd2WCxyxgPJYBfhMNOGT1cg367s+Flb5EGItYQf8AozQeKV/RQKksbK6UFA0MBiOjjae4zQ6Q0/tg/7Y4+H54AD6qc8EDuQGoKkyF4qLF8EF9AI6uodGM6B9gpE5IZZKOSaUxzJJMFhBmelWI0WiAnPRMaAv54fTe+6C7NgAHyrJhZzAECweWzWCBEy02mN5EBx7RP0AffYQo8jD7g1qksiQ7BO88ZgUhDLC51A0jfQEY28ek/BO6a/ywLM8FR/aWQwqVTZmlYUS5+TLTP0DrcqdURmncUs7W00FB3m9/EGp8ApYJK7y+vRhm+8shGi6CvyfOwdTwbhiJrYeOSi98d+xR+J0akHKVyq3oH+CRktulcmEdfUoReXENfNpeDibHIgh7vNBZFYZXoutgcrgd/hrvgZ8+vBOaVuXAJt9imLtyHH6IJcPJqB10DmCX/wOSQ88Sy+lKTQAAAABJRU5ErkJggg==">
+<a class="logo" href="http://krommaxe.com/">krommaxe</a><br><a class="nav" href="http://krommaxe.com/">БЛОГ</a>&emsp;<a class="nav" href="http://krommaxe.com/articles/">СТАТЬИ</a>&emsp;<a class="nav" href="http://krommaxe.com/downloads/">ЗАГРУЗКИ</a>&emsp;<a class="nav" href="http://krommaxe.com/about/">О САЙТЕ</a> 
+</div>
+
+<div class="left"><br>
+<a class="ptitle">Samsung Galaxy S9: What We Know</a><br><a class="date">14 ЯНВАРЯ 2018</a><br><br>
+<span class="text">
+The flagship phone launch of Mobile World Congress 2018, the <a href="">Samsung Galaxy S9</a> is going to set the agenda for Android phones in 2018. Rumors are already beginning to fly about the Galaxy S9's design and features, and we're rounding them up in preparation for the phone's launch on the evening of February 25 in Barcelona.
+</span><br><br></div>
+
+<div class="left"><br>
+<a class="ptitle">Firefox 58 </a><br><a class="date">14 ЯНВАРЯ 2018</a><br><br>
+<span class="text">
+<a href="">Доступен выпуск Firefox 58</a><br><br>
+Старый оптимизирующий компилятор WebAssembly заменён на новый двухуровневый, обеспечивающий выигрыш в производительности до 10-15 раз (такая скорость достигается компиляцией кода по мере его загрузки), что во много раз превышает показатели других браузеров.<br><br>
+Оптимизирована и работа с JavaScript. Кэширование байт-кода сокращает время загрузки страницы на величину до 43 миллисекунд. В будущих выпусках будет реализовано кэширование итогового машинного кода.<br><br>
+Теперь можно по умолчанию разрешить или запретить надоедливые запросы «вы разрешаете этому сайту отправлять вам уведомления», запросы на отправку данных геолокации, доступ к камере, микрофону, уведомлениям раб.стола (1379560). Для этого надо установить соответствующим настройкам значение «1» (всегда разрешено) или «2» (всегда запрещено)
+</span><br><br></div>
+
+<div class="left"><br>
+<a class="ptitle">Samsung Galaxy S9: What We Know</a><br><a class="date">14 ЯНВАРЯ 2018</a><br><br>
+<span class="text">
+Компания DuckDuckGo заявила об ужесточении контроля за соблюдением приватности своих пользователей. Для её повышения теперь предлагается защита данных не только во время поиска, но и при просмотре и навигации в сети Интернет.<br><br>
+
+Были выпущены обновлённые дополнения для браузеров и мобильные приложения (DuckDuckGo Mobile v4.0+).
+</span><br><br>
+</div>
+<div class="left"><br><br>
+<a class="ptitle">Samsung Galaxy S9: What We Know</a>
+<br><div class="right"><a class="date">14 ЯНВАРЯ 2018</a><br></div><span class="text">
+The flagship phone launch of Mobile World Congress 2018, the <a href="">Samsung Galaxy S9</a> is going to set the agenda for Android phones in 2018. Rumors are already beginning to fly about the Galaxy S9's design and features, and we're rounding them up in preparation for the phone's launch on the evening of February 25 in Barcelona.
+</span><br><br></div>
+
+<div class="left"><br>
+<a class="ptitle">Samsung Galaxy S9: What We Know</a><br><a class="date">14 ЯНВАРЯ 2018</a><br><br>
+<span class="text">
+<a href="">Доступен выпуск Firefox 58</a><br><br>
+Старый оптимизирующий компилятор WebAssembly заменён на новый двухуровневый, обеспечивающий выигрыш в производительности до 10-15 раз (такая скорость достигается компиляцией кода по мере его загрузки), что во много раз превышает показатели других браузеров.<br><br>
+Оптимизирована и работа с JavaScript. Кэширование байт-кода сокращает время загрузки страницы на величину до 43 миллисекунд. В будущих выпусках будет реализовано кэширование итогового машинного кода.<br><br>
+Теперь можно по умолчанию разрешить или запретить надоедливые запросы «вы разрешаете этому сайту отправлять вам уведомления», запросы на отправку данных геолокации, доступ к камере, микрофону, уведомлениям раб.стола (1379560). Для этого надо установить соответствующим настройкам значение «1» (всегда разрешено) или «2» (всегда запрещено)
+</span><br><br></div>
+
+<div class="left"><br>
+<a class="ptitle">Samsung Galaxy S9: What We Know</a><br><a class="date">14 ЯНВАРЯ 2018</a><br><br>
+<span class="text">
+Компания DuckDuckGo заявила об ужесточении контроля за соблюдением приватности своих пользователей. Для её повышения теперь предлагается защита данных не только во время поиска, но и при просмотре и навигации в сети Интернет.<br><br>
+
+Были выпущены обновлённые дополнения для браузеров и мобильные приложения (DuckDuckGo Mobile v4.0+).
+</span><br><br>
+</div>
+
+</div></body></html>
